@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your page name here!</title>
+        <style>
+            body {background-image: url(bkg.jpg);}
+            h1 {text-align: center; 
+                font-size: 150px; 
+                font-family: Brush Script MT;
+                animation: pop_in;
+                animation-duration: 3s;
+            }
+            button {
+                background-color: rgb(24, 122, 0);
+                color: white;
+                font-size: 20px; 
+                padding: 14px 40px; 
+                border-radius: 8px; 
+                margin-top: 20px     
+            }
+            .button_1, .button_2, .button_3, .button_4, .button_5 {
+                background-color: white; 
+                color: black; 
+                border: 3px solid #4CAF50;
+            }
+            .button_1:hover, .button_2:hover, .button_3:hover, .button_4:hover, .button_5:hover {
+            background-color: rgb(24, 122, 0) ;
+                color: white;
+            }
+            div {
+                position: fixed;
+                left: 30px;
+                top: 150px;
+            }
+            .menu_tittle {
+                font-size: 80px;
+            }
+
+            @keyframes pop_in {
+                from {font-size: 120px}
+                to {font-size: 150px;}
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>Title page</h1>
+
+        
+        <img id="banner" src="banner.jpg" alt="Page banner" style="max-width: 500px; height: auto;">
+     
+        
+        <div class="buttons">
+            <text class="menu_tittle">Menu</text><br>
+            <button class="button_1" onclick="butto_test.html">About us</button><br>
+            <button class="button_2" onclick="about_us">Our Products</button><br>
+            <button class="button_3" onclick="about_us">Priceing</button><br>
+            <button class="button_4" onclick="about_us">Our parteners</button><br>
+            <button class="button_5" onclick="about_us">Contact us</button><br>
+        </div>
+        
+    </body>
+</html>
