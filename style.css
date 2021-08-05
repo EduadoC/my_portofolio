@@ -54,3 +54,35 @@ body {
     top: 5px;
     left: -1px;
 }
+.menu_right {
+    max-width: 200px;
+    
+}
+.menu_right a {
+    display: block;
+    background-color: #ddd;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu_right a:hover {
+    border-bottom: black 2px solid;
+    background-color: #ccc;
+    
+}
+h2 {
+    position: relative;
+    left: 50px;
+}
+#welcome {
+    float: none;
+    position: relative;
+    background-color: #ddd;
+    max-width: 1200px;
+    max-height: 1000px;
+    left: 300px;
+    text-align: center;
+    border: black;
+    
+}
