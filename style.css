@@ -1,5 +1,6 @@
 body {
     background-color: rgb(202, 202, 202);
+    overflow: hidden;
     
     
 }
@@ -8,6 +9,15 @@ body {
     background-color: #f1f1f1;
     padding: 20px 10px;
 }
+#motto {
+    float: left;
+    text-align: center;
+    position: relative;
+    right: 350px;
+    
+    
+}
+
 .header a {
     float: left;
     color: black;
@@ -75,14 +85,26 @@ h2 {
     position: relative;
     left: 50px;
 }
-#welcome {
-    float: none;
-    position: relative;
-    background-color: #ddd;
-    max-width: 1200px;
-    max-height: 1000px;
-    left: 300px;
-    text-align: center;
-    border: black;
+#hand_logo {
+    width: 23px;
+}
     
+.main_page {
+    text-align: center;
+    float: right;
+    position: relative;  
+    border: white 2px solid;
+    width: 1375px;
+    height: 650px;
+}
+
+#stack_money {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+    box-shadow: black;
+
+
 }
