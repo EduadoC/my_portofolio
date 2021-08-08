@@ -1,26 +1,11 @@
 body {
-    background-color: rgb(202, 202, 202);
-    
-    
-    
+    background-color: rgb(202, 202, 202);   
 }
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
 }
-#motto {
-    float: right;
-    writing-mode: vertical-lr;
-    text-orientation: upright; 
-    font-size: 21px;
-    font-weight: bold;
-    background-color: #ddd;
-    border: black solid 1px;
-    border-radius: 5px;
-    box-shadow: grey 20px 20px 50px;
-}
-
 .header a {
     float: left;
     color: black;
@@ -81,54 +66,18 @@ body {
 
 .menu_right a:hover {
     border-bottom: black 2px solid;
-    background-color: #ccc;
-    
-}
-h2 {
-    position: relative;
-    left: 50px;
+    background-color: #ccc;   
 }
 #hand_logo {
     width: 23px;
 }
-#big_title {
-    text-align: center;
-}
-.main_page {
-    float: right;
-    position: relative;  
-    border: white 2px solid;
-    width: 1360px;
-    height: 650px;
-}
-#stack_money {
-    width: 250px;
-    position: relative;
-    left: 10px;
-    border-radius: 5px;
-    box-shadow: black;
-    margin-right: 10px;
-}
-#paragraf_1 {
-    font-size: 30px;
-    text-align: left; 
-    margin: 5px;
-    padding-right: 100px;
-}
-#button_join {
-    position: relative;
-    top: 50px;
-    font-size: 25px;
-    left: 450px;
-    border-color: dodgerblue;
-    border-radius: 15px;
-    box-shadow: grey 20px 20px 50px;
-}
-#button_join:hover {
-    float: unset;
-    font-size: 30px;
-    left: 425px;
-    border-color: blue 3px solid;
-    background-color: dodgerblue;
-}
+
+
+
+
+
+
+
+
+
     
