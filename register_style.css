@@ -1,11 +1,20 @@
 body {
-    background-color: rgb(202, 202, 202);
+    background-color: #eae2b7;
     height: 1000px;   
 }
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #e8e8db;
     padding: 20px 10px;
+}
+#motto {
+    position: relative;
+    float: right; 
+    font-size: 30px;
+    margin: 0px;
+    right: 5px;
+    padding-top: 10px;
+    font-family: 'Brush Script MT', cursive;
 }
 .header a {
     float: left;
@@ -63,7 +72,7 @@ body {
 }
 .menu_right a {
     display: block;
-    background-color: #ddd;
+    background-color: #e8e8db;
     font-size: 20px;
     text-decoration: none;
     padding: 12px;
@@ -84,7 +93,8 @@ body {
     height: 450px;   
     background-size: cover;
     margin-right: 400px;
-    bottom: 500px;   
+    bottom: 500px;  
+     
 }
 
 .register_form {

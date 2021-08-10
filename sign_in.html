@@ -12,8 +12,8 @@
             </a>
             <div class="header-right">
               <a href="Page_1.html">Home Page</a>
-              <a class="active" href="register.html">Register</a>
-              <a href="sign_in.html">Sign in</a><br>
+              <a href="register.html">Register</a>
+              <a class="active" href="sign_in.html">Sign in</a><br>
               <p id="motto">Spend your money smart.</p>
             </div>
         </div><!--Aici se inchide header-->
@@ -35,8 +35,8 @@
         <main class="register_box">
             <form action="action_page.php">
                 <div class="container">
-                  <h1>Register</h1>
-                  <p>Please fill in this form to create an account.</p>
+                  <h1>Sign in</h1>
+                  <p>Please fill in this form to sign in.</p>
                   <hr>
               
                   <label for="email"><b>Email</b></label>
@@ -44,18 +44,15 @@
               
                   <label for="psw"><b>Password</b></label>
                   <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-              
-                  <label for="psw-repeat"><b>Repeat Password</b></label>
-                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-                  <hr>
-              
-                  <p>By creating an account you agree to our <a id="i_have_one2" href="#">Terms & Privacy</a>.</p>
-                  <button type="submit" class="registerbtn">Register</button>
+
+                  <p><input id="i_have_one2" type="checkbox">Remember me </input></p>
+                  <button type="submit" class="registerbtn">Sign In</button>
                 </div>
-              
+
                 <div class="container signin">
-                  <p>Already have an account? <a id="i_have_one" href="sign_in.html">Sign in</a>.</p>
-                </div>
+                    <p>You don't have an account? <a id="i_have_one" href="register.html"> Register here</a>.</p>
+                  </div>
+              
               </form>
 
             </div> 

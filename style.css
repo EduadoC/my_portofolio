@@ -1,24 +1,19 @@
 body {
-    background-color: rgb(202, 202, 202);
-    
-    
-    
+    background-color: #eae2b7;
 }
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #e8e8db;
     padding: 20px 10px;
 }
 #motto {
-    float: right;
-    writing-mode: vertical-lr;
-    text-orientation: upright; 
-    font-size: 21px;
-    font-weight: bold;
-    background-color: #ddd;
-    border: black solid 1px;
-    border-radius: 5px;
-    box-shadow: grey 20px 20px 50px;
+    position: relative;
+    float: right; 
+    font-size: 30px;
+    margin: 0px;
+    right: 10px;
+    padding-top: 10px;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .header a {
@@ -73,7 +68,7 @@ body {
 }
 .menu_right a {
     display: block;
-    background-color: #ddd;
+    background-color: #e8e8db;
     font-size: 20px;
     text-decoration: none;
     padding: 12px;
