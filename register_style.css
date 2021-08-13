@@ -1,0 +1,208 @@
+body {
+    background-color: #eae2b7;
+    height: 1000px;   
+}
+.header {
+    overflow: hidden;
+    background-color: #e8e8db;
+    padding: 20px 10px;
+}
+#motto {
+    position: relative;
+    float: right; 
+    font-size: 30px;
+    margin: 0px;
+    right: 5px;
+    padding-top: 10px;
+    font-family: 'Brush Script MT', cursive;
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+.gaming_chair {
+    max-width: 1.5%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+}
+.gaming_chair {
+    position: relative;
+    top: 5px;
+    left: -1px;
+}
+#title_menu {
+    text-align: center;
+}
+.menu_right {
+    max-width: 200px;
+    margin: 0%;
+    
+}
+.menu_right a {
+    display: block;
+    background-color: #e8e8db;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu_right a:hover {
+    border-bottom: black 2px solid;
+    background-color: #ccc;   
+}
+#hand_logo {
+    width: 23px;
+}
+
+.register_box {
+    float: right;
+    position: relative;
+    width: 500px;
+    height: 450px;   
+    background-size: cover;
+    margin-right: 400px;
+    bottom: 500px;  
+     
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.register-form.error input {
+    border-color: red;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.register_form {
+    padding: 10px;
+    font-size: 20px;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 3px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.form-control {
+    padding-bottom: 22px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+#i_have_one #i_have_one2 {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    

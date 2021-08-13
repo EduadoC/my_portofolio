@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="register_style.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <a href="Page_1.html" class="logo">
+              <div>Money<span><img id="hand_logo" src="hand.png" alt="hand logo"></span></div>
+              <div>Manager</div>
+            </a>
+            <div class="header-right">
+              <a href="Page_1.html">Home Page</a>
+              <a class="active" href="register.html">Register</a>
+              <a href="sign_in.html">Sign in</a><br>
+              <p id="motto">Spend your money smart.</p>
+            </div>
+        </div><!--Aici se inchide header-->
+
+        
+        <div class="menu_right">
+            <h2 id="title_menu">Menu</h2>
+            <a>Game of the year</a>
+            <a>What to play</a>
+            <a>New Games</a>
+            <a>Old timers</a>
+            <a>New tech</a>
+            <a>Questions</a>
+            <a>Forum</a>
+            <a>About us</a>
+            <a>Contact us</a>
+        </div><!--Aici se incheie meniul din dreapta-->   
+
+        <main class="register_box">
+            <form action="Page_1.html" id="form">
+                <div class="container">
+                  <h1>Register</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <div class="form-control">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                    <i class="fas fa-check-circle"></i>
+			              <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                  </div>
+                
+                  <div class="form-control">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+                    <i class="fas fa-check-circle"></i>
+			              <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                  </div>
+
+                  <div class="form-control">
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="password2" required>
+                    <i class="fas fa-check-circle"></i>
+			              <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    <hr>
+                </div>
+              
+                  <p>By creating an account you agree to our <a id="i_have_one2" href="#">Terms & Privacy</a>.</p>
+                  <button type="submit" class="registerbtn">Register</button>
+                </div>
+              
+                <div class="container signin">
+                  <p>Already have an account? <a id="i_have_one" href="sign_in.html">Sign in</a>.</p>
+                </div>
+              </form>
+
+            </div> 
+        </main>       
+    </body>
+    <script type="text/javascript" src="register.js"></script>
+</html>

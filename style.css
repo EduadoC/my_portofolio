@@ -1,0 +1,129 @@
+body {
+    background-image: linear-gradient(to top right, #ffffff, #eae2b7) ;
+}
+.header {
+    overflow: hidden;
+    background-color: #e8e8db;
+    padding: 20px 10px;
+}
+#motto {
+    position: relative;
+    float: right; 
+    font-size: 30px;
+    margin: 0px;
+    right: 10px;
+    padding-top: 10px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+.gaming_chair {
+    max-width: 1.5%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+}
+.gaming_chair {
+    position: relative;
+    top: 5px;
+    left: -1px;
+}
+.menu_right {
+    max-width: 200px;
+    
+}
+.menu_right a {
+    display: block;
+    background-color: #e8e8db;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu_right a:hover {
+    border-bottom: black 2px solid;
+    background-color: #ccc;
+    
+}
+h2 {
+    position: relative;
+    left: 50px;
+}
+#hand_logo {
+    width: 23px;
+}
+#big_title {
+    text-align: center;
+}
+.main_page {
+    float: right;
+    position: relative;  
+    border: white 2px solid;
+    width: 1360px;
+    height: 650px;
+}
+#stack_money {
+    width: 250px;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+    box-shadow: black;
+    margin-right: 10px;
+}
+#paragraf_1 {
+    font-size: 30px;
+    text-align: left; 
+    margin: 5px;
+    padding-right: 100px;
+}
+#button_join {
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    left: 450px;
+    border-color: dodgerblue;
+    border-radius: 15px;
+    box-shadow: grey 20px 20px 50px;
+}
+#button_join:hover {
+    float: unset;
+    font-size: 30px;
+    left: 425px;
+    border-color: blue 3px solid;
+    background-color: dodgerblue;
+}
+    
