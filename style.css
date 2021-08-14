@@ -1,5 +1,5 @@
 body {
-    background-color: #eae2b7;
+    background-image: linear-gradient(to top right, #ffffff, #eae2b7) ;
 }
 .header {
     overflow: hidden;
