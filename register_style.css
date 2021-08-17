@@ -61,8 +61,6 @@ body {
         text-align: center;
         float: none;
     }
-    .reg_form {      
-    }
     
     
 }
@@ -81,9 +79,8 @@ body {
     text-align: center;
 }
 .menu_right {
-    max-width: 200px;
-    margin: 0%;
-    
+    width: 200px;
+    margin: 0%;    
 }
 .menu_right a {
     display: block;
@@ -107,11 +104,34 @@ body {
     border: 2px solid black;
     width:85%;
     height: 420px;
-    left: 250px;
-    position: fixed;
-    bottom: 330px;
+    float: right;
+    position: relative;
+    bottom: 420px;
+    font-size: 1.5rem;    
 }
-
+.reg_form h2 {
+    text-align: center;
+}
+@media screen and (max-width: 1340px){
+    .reg_form {
+        width: 60%;
+    } 
+}
+.column {
+    float: left;
+    margin-left: 270px;
+    
+    
+}
+#column_psw {
+    margin-left: 300px;
+}
+.reg_form * {
+    padding: 10px;
+}
+.button {
+    
+}
 
 
 
