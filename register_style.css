@@ -101,40 +101,41 @@ body {
 
 /*from here css reg_form*/
 .reg_form {
-    border: 2px solid black;
-    width:85%;
-    height: 420px;
     float: right;
     position: relative;
-    bottom: 420px;
-    font-size: 1.5rem;    
-}
-.reg_form h2 {
-    text-align: center;
-}
-@media screen and (max-width: 1340px){
-    .reg_form {
-        width: 60%;
-    } 
-}
-.column {
-    float: left;
-    margin-left: 270px;
-    
-    
-}
-#column_psw {
-    margin-left: 300px;
+    bottom: 450px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 .reg_form * {
     padding: 10px;
 }
-.button {
-    
+@media screen and (max-width: 942px) {
+    .reg_form {
+        left: 20%;
+        margin-left: 50%;
+        margin-right: 50%;
+    }   
 }
-
-
-
+@media screen and (max-width: 700px) {
+    .reg_form {
+        left: 20%;
+        margin-left: 50%;
+        margin-right: 50%;
+        top: 60px;
+    }   
+}
+.button {
+    text-align: center;
+    background-color: #b5e48c;
+    border-radius: 3px;
+}
+.button:hover {
+    background-color: #99d98c;
+    border: 1px solid #76c893;
+}
 
 
 
