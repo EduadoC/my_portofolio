@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(to top right, #ffffff, #eae2b7) ;
     height: 1000px;
+    overflow: hidden;
     
 }
 .header {
@@ -42,6 +43,8 @@ body {
 .header-right {
     float: right;
 }
+
+
 @media screen and (max-width: 700px) {
     .header a {
         float: none;
@@ -101,16 +104,28 @@ body {
 
 /*from here css reg_form*/
 .reg_form {
+    width: 35%;
     float: right;
     position: relative;
-    bottom: 450px;
+    left: 100px;
+    bottom: 520px;
     margin-left: 50%;
     margin-right: 50%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 10px;
+    
 }
 .reg_form * {
     padding: 10px;
+}
+.reg_form h2 {
+    text-align: center;
+}
+.column .row input {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px #bbbbb5;
 }
 @media screen and (max-width: 942px) {
     .reg_form {
@@ -131,6 +146,7 @@ body {
     text-align: center;
     background-color: #b5e48c;
     border-radius: 3px;
+    margin-left: 20px;  
 }
 .button:hover {
     background-color: #99d98c;
